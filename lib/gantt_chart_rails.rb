@@ -1,4 +1,2 @@
-require "ganttcharts/version"
-require "ganttcharts/rails"
-
-
+require "gantt_chart_rails/version"
+require "gantt_chart_rails/rails"

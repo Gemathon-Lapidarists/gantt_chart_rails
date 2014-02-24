@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ganttcharts/version"
+require 'gantt_chart_rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gantt_chart_rails"
-  spec.version       = Ganttcharts::VERSION
+  spec.version       = GanttChartRails::VERSION
   spec.authors       = ["Ankita Kanitkar"]
   spec.email         = ["ankitakanitkar@gmail.com"]
   spec.summary       = %q{Wapper to integrate jquery gantt chart with rails }
